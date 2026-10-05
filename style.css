@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef4ff;
+    margin: 0;
+}
+
+.container {
+    width: 700px;
+    margin: 60px auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+    color: #1e3a8a;
+}
+
+p {
+    font-size: 20px;
+    color: #64748b;
+}
+
+.add-habit {
+    margin: 25px 0;
+}
+
+#habitInput {
+    padding: 15px;
+    width: 400px;
+    font-size: 17px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#addButton {
+    padding: 15px 20px;
+    margin-left: 5px;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #2563eb;
+    color: white;
+}
+
+#addButton:hover {
+    background-color: #1d4ed8;
+}
+
+.habit {
+    background-color: white;
+    margin: 15px 0;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    font-size: 18px;
+}
+
+.habit input {
+    width: auto;
+}
